@@ -21,7 +21,7 @@ const Statistics = ({ selectedMonth }) => {
 
   return (
     <div className='m-3 text-center'>
-      <h3  className='text-center mb-4'>Statistics</h3>
+      <h3 className='text-center mb-4'>Statistics</h3>
       <p>Total Sale Amount: {statistics.totalSaleAmount}</p>
       <p>Total Sold Items: {statistics.totalSoldItems}</p>
       <p>Total Not Sold Items: {statistics.totalNotSoldItems}</p>
